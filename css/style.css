@@ -1,0 +1,32 @@
+#map{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+}
+
+#menu{
+	position: fixed;
+}
+
+#banner{
+	width: 100%;
+	padding-top: 10em;
+	padding-bottom: 10em;
+	vertical-align: middle;
+	background-image: url(../img/bg.jpg);
+}
+
+.wrapper
+{
+	padding-top: 5em;
+	padding-bottom: 3em;
+	vertical-align: middle;
+}
+	.wrapper img{
+		height: 5em;
+	}
+	.wrapper #refs a{
+		display: block;
+	}
