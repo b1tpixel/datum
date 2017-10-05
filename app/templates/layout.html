@@ -1,17 +1,26 @@
-<% var i = 1 %>
-<% _.each(items, function(item) { %>
-	<% var id = "itemId" + i %>
-	<div class="item" id="<%- id %>"><h2><%- item.item%></h2>
-		<div class="description"><%- item.desc %></div>
-    </div>
-    <script>
-		$("#<%- id %>").click(function() {
-			$("#<%- id %> .description").slideDown();
-			
-			mymap.panTo(new L.LatLng(<%- item.latitude%>, <%- item.longitude %>));
-		});
-	</script>
-    <% i++ %>
-<% }) %>
 
+<div class="item center">
+	<button>Центр парка</button>
+	<div class="description">
+		<p>Центральная точка парка ДГТУ</p>
+	</div>
+</div>
+<div class="item arena">  
+	<button>Атлетический манеж ДГТУ</button>
+	<div class="description">
+		<p>Манеж в северозападной части парка ДГТУ</p>
+	</div>
+</div>		
+<div class="item chapel">
+	<button>Церковь</button>
+	<div class="description">
+		<p>Храм святой великомученницы Татианы</p>
+	</div>
+</div>
+<div class="item stadium">
+	<button>Футбольный стадион</button>
+	<div class="description">
+		<p>Минифутбольный стадион, ограждённый забором</p>
+	</div>
+</div>
 	

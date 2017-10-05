@@ -14,8 +14,13 @@
 
 .item{
 	text-align: center;
-	padding: 0.5em 0;
 	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+button{
+	width: 100%;
+	padding: 1em;
+	font-size: 1.2em;
 }
 
 .description{
